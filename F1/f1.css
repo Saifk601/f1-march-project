@@ -1,0 +1,175 @@
+
+body {
+    background-color: #1a1c19;
+}
+.nav-container {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.nav-left {
+    display: flex;
+}
+.nav-right {
+    display: flex;
+}
+.item{
+    color: #e0d6c2;
+    border: 1px solid white;
+    margin: 2px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    text-align: center;
+    border-radius: 25px;
+}
+.item:hover {
+    background-color: #e0d6c2;
+    color: #1a1c19;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+
+}
+.container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    grid-template-rows: auto;
+    height:100vh;
+    
+}
+.card {
+   background-color:#DFD6C5 ;
+   margin: 10px;
+   border-radius: 30px;
+   padding-top: 10px;
+   padding-bottom: -40px;
+} 
+.card-ft-contaner {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+.ftcard {
+    padding:10px;
+}
+.container1 {
+    
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height:100vh;
+}
+
+
+.card1 {
+    display: flex;
+
+}
+.card2 {
+    background-color:  #8E886D;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.card4 {
+    background-color: #916E58;
+    margin: 10px;
+    border-radius: 30px;
+}
+.card5 {
+    background: #B1A48E;
+    margin: 10px;
+    border-radius: 30px;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+@media (max-width: 1125px){
+ 
+    nav .coll{
+       display: none;
+    }
+  
+}
+@media (max-width: 950px){
+    .eve{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .right{
+        display: none;
+    }
+}
+
+
+@media (max-width: 500px){
+    .fbtn{
+        height: auto;
+        width: auto;
+        
+    }
+}
+@media (max-width:600px){
+    .fbtn{
+        height: auto;
+        width: auto;
+        
+    }
+}
+
+
+
+@media(max-width:710px){
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+.container .card:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.container1 .card1:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.container3 .card4:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.container3 .card-ft-contaner:hover .ftcard{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.container .card-ft-contaner:hover .ftcard{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.container1 .card-ft-contaner:hover .ftcard{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+
+
